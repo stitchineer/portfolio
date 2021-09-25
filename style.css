@@ -1,1 +1,71 @@
+@font-face {
+  font-family: titleFont;
+  src: url(fonts/Magnolia.ttf);
+  font-weight: regular;
+  }
 
+body{
+	color: brown;
+	background: linear-gradient(seashell, mistyRose, salmon);
+	font-size: 20px;	
+	font-family: verdana; 
+	}
+
+
+h1{
+	font-family: titleFont;
+	font-size: 70px;
+	line-height: 0.5%;
+	}
+
+p{
+	line-height: 40%;
+	}
+
+.mainframe{
+	background-color: mistyRose;
+	width: 90%;
+	border-radius: 10px;
+	}
+
+table{
+	width:100%;
+	}
+
+
+
+td{
+	width: 30%;
+	text-align: center;
+	padding: 20px 0 20px 0;
+	word-wrap: break-word;
+	}
+
+button{
+	background-color: tomato;
+	color: seashell;
+	padding: 20px ;
+	height: 90px;
+	width: 80%;
+	border-radius: 5px;
+	border: none;
+	font-size: 15px;
+	font-family: verdana;
+	background-image: linear-gradient(pink 0%, salmon 20%, tomato 95%);
+ 	}
+	
+footer { 
+	display: block;
+	color: seashell;
+	background-color: salmon;
+	margin: 15px;
+	padding: 5px;
+	align: center;
+	border-radius: 10px;
+	font-size: 12px;
+	word-wrap: normal;
+	}	
+
+p{
+	font-size: 13px;
+	}
