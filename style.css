@@ -9,7 +9,7 @@ body{
 	background: linear-gradient(seashell, mistyRose, salmon);
 	font-size: 20px;	
 	font-family: verdana; 
-	height: 100vh;
+	height: 100vh !important;
 	}
 
 
@@ -54,13 +54,13 @@ button{
 	font-family: verdana;
 	background-image: linear-gradient(pink 0%, salmon 20%, tomato 95%);
  	}
+ 	
 footer{
 	position: absolute;
 	bottom: 0;
 	width: 100%;
 	}	
-	
-	
+		
 .footer { 
 	display: block;
 	color: seashell;
